@@ -27,7 +27,7 @@ class SplashScreen extends StatelessWidget {
                 padding:
                     const EdgeInsets.symmetric(horizontal: 30, vertical: 10)),
             onPressed: () {
-              startQuiz;
+              startQuiz();
             },
           ),
         ],
