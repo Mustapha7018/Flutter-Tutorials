@@ -17,10 +17,15 @@ class SplashScreen extends StatelessWidget {
             width: 300,
           ),
           const SizedBox(height: 100),
-          const StyledText('Learn Flutter the fun way!', fontSize: 22),
+          const StyledText(
+            'Learn Flutter the fun way!',
+            fontSize: 22,
+            textAlign: TextAlign.center,
+          ),
           const SizedBox(height: 100),
           OutlinedButton.icon(
-            label: const StyledText('Start Quiz', fontSize: 20),
+            label: const StyledText('Start Quiz',
+                fontSize: 20, textAlign: TextAlign.center),
             icon: const Icon(Icons.arrow_right_alt),
             style: OutlinedButton.styleFrom(
                 foregroundColor: Colors.white,
